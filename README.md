@@ -1,6 +1,6 @@
 # Brew Tally Node.js & AWS DynamoDB app 
 
-This project is a Node web app (using [Express](http://expressjs.com/)) that leverages [AWS DynamoDB](http://aws.amazon.com/dynamodb/) for a datastore. It was built for an IBM developerWorks Knowledge Path. The source code is [CoffeeScript](http://coffeescript.org/) and you will need an AWS account as two environment variables (`process.env.ACCESSKEY` and `process.env.SECRETKEY`) are required for DynamoDB authentication. 
+This project is a Node web app (using [Express](http://expressjs.com/)) that leverages [AWS DynamoDB](http://aws.amazon.com/dynamodb/) for a datastore. It was built for an IBM developerWorks Knowledge Path. The source code is [CoffeeScript](http://coffeescript.org/) and you will need an AWS account as two environment variables (`ACCESSKEY` and `SECRETKEY`) are required for DynamoDB authentication. 
 
 ## Installation
 
