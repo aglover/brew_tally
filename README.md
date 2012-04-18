@@ -11,7 +11,7 @@ Make sure you are on a current version of Node and have CoffeeScript installed. 
 * [Just what is Node.js?](http://www.ibm.com/developerworks/opensource/library/os-nodejs/index.html)
 * [Functional JavaScript with CoffeeScript and Node](http://www.ibm.com/developerworks/java/library/j-coffeescript/index.html?ca=drs-)
 * [Node.js for Java developers](http://www.ibm.com/developerworks/java/library/j-nodejs/)
-* [Getting started with Node.js](http://www.ibm.com/developerworks/java/library/j-nodejs/) (Video)
+* [Getting started with Node.js](http://public.dhe.ibm.com/software/dw/demos/jnodejs/index.htm) (Video)
 * [Java development 2.0: JavaScript for Java developers](http://www.ibm.com/developerworks/java/library/j-javadev2-18/index.html)
 * [Ryan McGeary on CoffeeScript](http://www.ibm.com/developerworks/java/library/j-gloverpodcast2/index.html#mcgeary) (Podcast)
 
