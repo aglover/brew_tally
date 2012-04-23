@@ -3,6 +3,8 @@
 	"version":"0.0.1",
 	"dependencies":{
 		"express":"2.5.8",
-		"dynode" :  "0.2.0"
+		"dynode" :  "0.2.0",
+		"mocha" : "1.0.1",
+		"should" : "0.6.1"
 	}
 }
