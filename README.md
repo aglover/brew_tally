@@ -4,7 +4,11 @@ This project is a Node web app (using [Express](http://expressjs.com/)) that lev
 
 ## Installation
 
-Make sure you are on a current version of Node and have CoffeeScript installed. First grab all the required dependencies via `npm install` and then type `cake build` -- this'll create an `app.js` file in the root directory of the project. Next, type `node app.js` and don't forget to pass in or export via your shell the two variables referenced above. 
+Make sure you are on a current version of Node and have CoffeeScript installed. First grab all the required dependencies via `npm install` and then type `cake build` -- this'll create an `App.js` file in the root directory of the project. Next, type `node App.js` and don't forget to pass in or export via your shell the two variables referenced above. 
+
+## Running the tests
+
+This project uses [Mocha](http://visionmedia.github.com/mocha/) and [should](https://github.com/visionmedia/should.js) -- to run these tests, type `cake test`.
 
 ## Helpful resources
 
