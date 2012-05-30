@@ -6,6 +6,17 @@ dynode.auth({ accessKeyId: process.env.ACCESSKEY, secretAccessKey: process.env.S
 app = express.createServer express.logger()
 app.use express.bodyParser()
 
+app.set 'view engine', 'jade'
+app.use '/css', express.static(__dirname + '/css')
+app.use '/images', express.static(__dirname + '/images')
+
+app.get '/', (req, res) ->
+	dynode.scan 'beer_ratings', (err, items, meta) ->
+		if err
+			res.send JSON.stringify {status: "failure"}
+		else
+			res.render 'index', {beers:items}
+
 app.get '/:beer_name', (req, res) ->
 	beer_name = req.params.beer_name
 	dynode.getItem('beer_ratings', beer_name, (err, item, meta) ->

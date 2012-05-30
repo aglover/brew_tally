@@ -1,0 +1,25 @@
+
+body
+  script(type='text/javascript')
+    $(document).ready(function(){
+      $('.bar1').animate({'height':'#{beers[0].votes * 10 }%'},500);
+      $('.bar2').animate({'height':'#{beers[1].votes * 10 }%'},1000);
+      $('.bar3').animate({'height':'#{beers[2].votes * 10 }%'},1500);
+    });
+  .polls
+    .rating
+      .graph
+        strong.bar1
+          span #{beers[0].votes}
+      .ans #{beers[0].name}
+    .rating
+      .graph
+        strong.bar2
+          span  #{beers[1].votes}
+      .ans  #{beers[1].name}
+    .rating
+      .graph
+        strong.bar3
+          span  #{beers[2].votes}
+      .ans  #{beers[2].name}
+    .clear
