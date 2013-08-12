@@ -3,7 +3,7 @@ dynode = require 'dynode'
 
 dynode.auth({ accessKeyId: process.env.ACCESSKEY, secretAccessKey: process.env.SECRETKEY })
 
-app = express.createServer express.logger()
+app = express express.logger()
 app.use express.bodyParser()
 
 app.set 'view engine', 'jade'
@@ -14,7 +14,7 @@ app.get '/', (req, res) ->
 		if err
 			res.send 'error!'
 		else
-			res.render 'index', {beers:items}
+			res.render 'index', {beers:items, layout: 'layout.jade'}
 
 app.get '/:beer_name', (req, res) ->
 	beer_name = req.params.beer_name

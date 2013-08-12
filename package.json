@@ -2,12 +2,12 @@
 	"name":"beer_votes",
 	"version":"0.0.1",
 	"dependencies":{
-		"express":"2.5.8",
-		"dynode" :  "0.2.0",
-		"mocha" : "1.0.1",
-		"should" : "0.6.1",
-		"jade" : "0.25.0",
-		"coffee-script" : "1.3.3"
+		"express":"latest",
+		"dynode" :  "latest",
+		"mocha" : "latest",
+		"should" : "latest",
+		"jade" : "latest",
+		"coffee-script" : "latest"
 	},
 	"engines" : {
 		"node" : "0.6.x"
