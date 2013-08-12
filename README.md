@@ -2,9 +2,23 @@
 
 This project is a Node web app (using [Express](http://expressjs.com/)) that leverages [AWS DynamoDB](http://aws.amazon.com/dynamodb/) for a datastore. It was built for an IBM developerWorks Knowledge Path. The source code is [CoffeeScript](http://coffeescript.org/) and you will need an AWS account as two environment variables (`ACCESSKEY` and `SECRETKEY`) are required for DynamoDB authentication. 
 
-## Installation
+## Installation 
 
-Make sure you are on a current version of Node and have CoffeeScript installed. First grab all the required dependencies via `npm install` and then type `cake build` -- this'll create an `App.js` file in the root directory of the project. Next, type `node App.js` and don't forget to pass in or export via your shell the two variables referenced above. 
+Make sure you have a current version of Node. I recommend [NVM](http://thediscoblog.com/blog/2013/03/12/node-in-3-commands/). Then `cd` into the root of this project and type:
+
+`$> npm install`
+
+Next, make sure you have Coffeescript in your path -- just install it for your current installation of Node:
+
+`$> sudo npm install -g coffee-script`
+
+
+Finally, make sure you have Ruby & Foreman (what if you don't? Install [Heroku Toolbelt](https://toolbelt.heroku.com/) as that'll give it to you) and then type:
+
+`$> foreman start`
+
+Boom. Done. 
+
 
 ## Running the tests
 
